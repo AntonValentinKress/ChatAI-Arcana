@@ -1,0 +1,415 @@
+{
+  "metaDimensions": [
+    {
+      "name": "Funktionale Einordung",
+      "description": "",
+      "dimensions": [
+        {
+          "name": "Klassifikation",
+          "description": "Die Klassifikation dient der funktionalen Einordnung eines Smart Services und beschreibt, welchem übergeordneten Aufgaben- oder Themenfeld er zugeordnet ist. Sie ermöglicht eine systematische Strukturierung entlang des primären Service-Zwecks und schafft damit die Basis für Vergleichbarkeit.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Condition Monitoring",
+              "description": "Condition-Monitoring-Services unterstützen die kontinuierliche Überwachung von Maschinen- und Anlagenzuständen anhand relevanter Messgrößen wie Temperatur, Vibration oder Druck. Ziel ist die transparente Erkennung von Abweichungen und potenziellen Störungen – ohne Prognose künftiger Ausfälle. Diese Services tragen wesentlich zur Stabilisierung von Produktionsprozessen und zur Erhöhung der Betriebssicherheit bei."
+            },
+            {
+              "name": "Übergeordnetes Dashboard / Andon",
+              "description": "Smart Services der Kategorie Übergeordnetes Dashboard / Andon bündeln und visualisieren zentrale Produktionskennzahlen, Anlagenzustände und Störinformationen in Echtzeit. Leitstandvisualisierungen, Andon-Boards oder Produktionscockpits schaffen ein gemeinsames Informationsbild für operative Entscheidungen und verbessern Transparenz, Reaktionsgeschwindigkeit und Prozessverständnis."
+            },
+            {
+              "name": "Maschinenauftragstatus",
+              "description": "Die Kategorie Maschinenauftragsstatus umfasst Services, die den aktuellen Bearbeitungsstand eines Maschinenauftrags sichtbar machen, etwa „Auftrag läuft“, „Wartet auf Material“ oder „Abgeschlossen“. Die Bereitstellung dieser Statusinformationen erhöht die operative Transparenz, erleichtert die Produktionsüberwachung und unterstützt eine effizientere Planung."
+            },
+            {
+              "name": "Digitale Auftragssteuerung",
+              "description": "Digitale Auftragssteuerung umfasst Services, die Produktionsaufträge vollständig digital verteilen, rückmelden und nachverfolgen. Dabei stehen transparente Arbeitslisten, digitale Fortschrittsüberwachung, dynamische Reihenfolgensteuerung und automatisierte Rückmeldemechanismen im Mittelpunkt. Diese Anwendungen erhöhen die Prozesssicherheit, stellen konsistente Informationen bereit und ermöglichen eine effiziente Synchronisation der Produktion."
+            },
+            {
+              "name": "Werkerassistenz",
+              "description": "Werkerassistenz-Services unterstützen Mitarbeitende aktiv bei der Ausführung ihrer Tätigkeiten, indem sie kontextsensitive Informationen, Schritt-für-Schritt-Anleitungen oder intuitive Interaktionsformen bereitstellen. Gestensteuerung, AR-Visualisierungen oder dynamische Handlungsempfehlungen erleichtern die Bedienung komplexer Maschinen und verbessern gleichzeitig die Prozessqualität und Fehlerreduktion."
+            },
+            {
+              "name": "Tracking",
+              "description": "Tracking-Services ermöglichen die Echtzeitortung von Materialien, Werkzeugen, Produkten oder anderen Objekten innerhalb der Produktion. Technologien wie RFID, Bluetooth oder GPS dienen als technische Basis, um Positionen und Bewegungsmuster präzise zu erfassen. Dadurch verbessern diese Anwendungen die Prozesssteuerung, reduzieren Suchzeiten und erhöhen die Bestandssicherheit."
+            },
+            {
+              "name": "Traceability / Digitale Produktpass",
+              "description": "Smart Services im Bereich Traceability / Digitaler Produktpass befassen sich mit der durchgängigen Erfassung, Verknüpfung und Bereitstellung von Produkt-, Material- und Prozessdaten über den gesamten Lebenszyklus hinweg. Insbesondere digitale Produktpässe und lückenlose Rückverfolgbarkeit schaffen ein hohes Maß an Transparenz, unterstützen Compliance-Anforderungen und verbessern die Qualitätssicherung."
+            },
+            {
+              "name": "Automatisierte Instandhaltung",
+              "description": "Services der Kategorie Automatisierte Instandhaltung lösen Wartungsprozesse selbstständig aus oder führen diese automatisiert durch. Beispiele sind automatische Prüfabläufe, systemgestützte Wartungsentscheidungen oder autarke Ersatzteilbestellungen. Diese Anwendungen entlasten Mitarbeitende erheblich und steigern die Effizienz der Instandhaltung."
+            },
+            {
+              "name": "Predictive Maintenance",
+              "description": "Predictive-Maintenance nutzt datengetriebene Prognosemodelle, um zukünftige Ausfälle, Abnutzungszustände oder Restlebensdauern von Komponenten vorherzusagen. Im Gegensatz zum Condition Monitoring wird hier eine explizite Zukunftsprognose erzeugt, die präventive Wartungsentscheidungen ermöglicht. Dadurch lassen sich Ausfallzeiten reduzieren und Wartungsprozesse optimieren."
+            },
+            {
+              "name": "Remote Services",
+              "description": "Remote Services ermöglichen Fernzugriff, Fernwartung oder entfernte Interaktion mit Maschinen und Anlagen. Typische Anwendungen sind Remote-Diagnosen, Remote-Updates, Fernparametrierung oder assistierte Remote-Interventionen. Diese Services reduzieren Reaktionszeiten, senken Wartungskosten und ermöglichen effiziente Unterstützung unabhängig vom Standort."
+            },
+            {
+              "name": "Automatisierte Qualitätskontrolle",
+              "description": "Smart Services im Bereich der Automatisierten Qualitätskontrolle führen Qualitätsprüfungen ohne manuelle Eingriffe durch und nutzen dabei Technologien wie automatische Fehlererkennung, Bildverarbeitung oder KI-basierte Analytik. Durch Inline-Inspektionen und kontinuierliche Bewertungen erhöhen sie die Prüfsicherheit und reduzieren Fehlerquoten, während sie gleichzeitig den Prüfaufwand senken."
+            },
+            {
+              "name": "Energie-Monitoring / Energieoptimierung",
+              "description": "Smart Services der Kategorie Energie-Monitoring / Energieoptimierung erfassen und analysieren den Energieverbrauch sowie den Ressourceneinsatz von Anlagen und Prozessen. Neben der Schaffung von Transparenz ermöglichen sie Optimierungsentscheidungen, Lastmanagement und Effizienzanalysen. Damit leisten sie einen Beitrag zur nachhaltigen und kostenbewussten Produktion."
+            },
+            {
+              "name": "Digitaler Zwilling / Simulation",
+              "description": "Die Kategorie Digitaler Zwilling / Simulation beschreibt Services, die virtuelle Abbildungen von Maschinen, Anlagen oder Prozessen bereitstellen und simulationsgestützte Analysen ermöglichen. Virtuelle Inbetriebnahmen, Prozesssimulationen und Echtzeitmodelle bilden dabei die Grundlage für Prozessoptimierungen, vorausschauende Analysen und eine risikoreduzierte Entscheidungsfindung."
+            },
+            {
+              "name": "Prozessautomatisierung mit Smarten Produkten",
+              "description": "Smart Services im Bereich Prozessautomatisierung mit Smarten Produkten ermöglichen durch eingebaute Sensorik, Identifikationsmerkmale oder eigenständige Informationsverarbeitung eine automatische Steuerung und Anpassung von Prozessschritten. Smart Services in diesem Bereich nutzen diese Intelligenz, um Produktionsabläufe dynamisch auszulösen oder zu konfigurieren. Dadurch entsteht eine flexible, adaptive Prozessautomatisierung entlang der Wertschöpfungskette."
+            },
+            {
+              "name": "Selbstkonfig. / selbstorgan. Produktion",
+              "description": "Smart Services der selbstkonfigurierenden / selbstorganisierten Produktion erlauben es Produkten, Aufträgen oder smarten Objekten, Produktionsprozesse eigenständig zu steuern und notwendige Anlagenkonfigurationen automatisch zu initiieren. Kontinuierliche Optimierungsmechanismen und autonome Entscheidungen führen zu hochflexiblen und wandlungsfähigen Produktionsstrukturen, die als Kernelement cyberphysischer Produktionssysteme gelten."
+            }
+          ]
+        },
+
+        {
+          "name": "Zielgröße",
+          "description": "Die Zielgröße definiert, auf welche betrieblichen Wirkungsziele ein Smart Service ausgerichtet ist. Sie beschreibt den intendierten Nutzen und die angestrebten Effekte auf Leistungsparameter wie Effizienz, Qualität oder Flexibilität. Dadurch bildet diese Dimension einen strategischen Orientierungsrahmen und liefert die Grundlage für spätere Nutzenbewertungen.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Zeit",
+              "description": ""
+            },
+            {
+              "name": "Kosten",
+              "description": ""
+            },
+            {
+              "name": "Qualitätsverbesserung",
+              "description": ""
+            },
+            {
+              "name": "Flexibilität",
+              "description": ""
+            },
+            {
+              "name": "Mitarbeiterzufriedenheit",
+              "description": ""
+            },
+            {
+              "name": "Nachhaltigkeit",
+              "description": ""
+            },
+            {
+              "name": "Effizienzsteigerung",
+              "description": ""
+            },
+            {
+              "name": "Konformität",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Betriebsart / Ergebnis",
+          "description": "Die Betriebsart beschreibt, wie ein Smart Service operativ wirkt – ob er Transparenz schafft, Prozesse steuert, Optimierungspotenziale aufzeigt oder autonom handelt. Diese Dimension ordnet den funktionalen Output ein und ermöglicht die Bewertung des Automatisierungs- und Wirkungsgrads eines Smart Service.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Überwachung / Transparenz (Entscheidungsunterstützung)",
+              "description": ""
+            },
+            {
+              "name": "Steruerung / Fernsteuerung",
+              "description": ""
+            },
+            {
+              "name": "Optimierung",
+              "description": ""
+            },
+            {
+              "name": "Autonomes Handeln",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Datenverarbeitung",
+      "description": "",
+      "dimensions": [
+        {
+          "name": "Datenaktivität",
+          "description": "Die Datenaktivität beschreibt die Art und Weise, wie ein Smart Service mit Daten umgeht, insbesondere ob diese generiert, verarbeitet oder aggregiert werden. Sie bestimmt die Rolle der Daten im Servicekonzept und erlaubt Rückschlüsse auf technische Anforderungen, Datenflüsse und Systemarchitekturen.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Datengenerierung",
+              "description": ""
+            },
+            {
+              "name": "Datenverarbeitung",
+              "description": ""
+            },
+            {
+              "name": "Datenaggregation",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Analysestufe",
+          "description": "Die Analysestufe klassifiziert die Tiefe und Komplexität der eingesetzten Analyseverfahren – von deskriptiven Auswertungen bis zu präskriptiven Modellen. Diese Dimension ermöglicht eine Einordnung des datengetriebenen Intelligenzgrades und beschreibt das technologische Reife- und Automatisierungsniveau eines Smart Service.",
+          "selectionType": "E",
+          "characteristics": [
+            {
+              "name": "ZeiDeskriptivt",
+              "description": ""
+            },
+            {
+              "name": "Diagnostisch",
+              "description": ""
+            },
+            {
+              "name": "Prädiktiv",
+              "description": ""
+            },
+            {
+              "name": "Präskriptiv",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Datenquelle",
+          "description": "Die Datenquelle beschreibt die Herkunft der für den Smart Service relevanten Daten, beispielsweise aus Maschinen, Prozessen, Produkten oder IT-Systemen. Sie zeigt auf, welche Entitäten den Service speisen und welche Sensorik, Datenerfassung oder Systemanbindung erforderlich ist – zentral für die Bewertung der Realisierbarkeit.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Maschine / Tool",
+              "description": ""
+            },
+            {
+              "name": "Prozess",
+              "description": ""
+            },
+            {
+              "name": "Produkt",
+              "description": ""
+            },
+            {
+              "name": "Kunden",
+              "description": ""
+            },
+            {
+              "name": "Enterprise-System",
+              "description": ""
+            },
+            {
+              "name": "Umwelt",
+              "description": ""
+            },
+            {
+              "name": "Mensch",
+              "description": ""
+            },
+            {
+              "name": "Öffentlich",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Service-Komplexität",
+          "description": "Diese Dimension beschreibt den Grad der funktionalen Verknüpfung eines Smart Service mit bestehenden Systemen und Prozessen. Sie reflektiert die technische und organisatorische Komplexität, die für die Realisierung erforderlich ist, und unterstützt die Einschätzung von Integrationsaufwand und Interoperabilität.",
+          "selectionType": "E",
+          "characteristics": [
+            {
+              "name": "Einzelfunktion / manuelle Informationsverarbeitung",
+              "description": ""
+            },
+            {
+              "name": "Mehrere verknüpfte Funktionen",
+              "description": ""
+            },
+            {
+              "name": "Multiple interdependente Funktionen",
+              "description": ""
+            },
+            {
+              "name": "Vollständig integrierte Systemlösung",
+              "description": ""
+            }
+          ]
+        },
+        
+        {
+          "name": "Serviceablauf",
+          "description": "Der Serviceablauf beschreibt die zeitliche und logische Struktur der Serviceausführung – manuell, zeitgesteuert, ereignisgesteuert oder kontinuierlich in Echtzeit. Diese Dimension beeinflusst maßgeblich die Anforderungen an Infrastruktur, Reaktionsfähigkeit und operative Einbettung in Produktionsprozesse.",
+          "selectionType": "E",
+          "characteristics": [
+            {
+              "name": "Manuell",
+              "description": ""
+            },
+            {
+              "name": "Zeitgesteuert",
+              "description": ""
+            },
+            {
+              "name": "Ereignisgesteuert",
+              "description": ""
+            },
+            {
+              "name": "Kontinuierlich (Echtzeit)",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Organisatorische Aspekte",
+      "description": "",
+      "dimensions": [
+        {
+          "name": "Kompetenzen",
+          "description": "Die Kompetenzdimension umfasst das erforderliche Wissen und die Fähigkeiten für Entwicklung, Einführung und Nutzung eines Smart Service. Sie dient der Bewertung organisationaler Qualifikationsbedarfe und bildet eine Grundlage für Personalplanung sowie Kompetenzentwicklung im Kontext digitaler Transformation.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Produkt-Know-how",
+              "description": ""
+            },
+            {
+              "name": "Prozess-Know-how",
+              "description": ""
+            },
+            {
+              "name": "OT-Know-how",
+              "description": ""
+            },
+            {
+              "name": "IT-Know-how",
+              "description": ""
+            },
+            {
+              "name": "Ganzheitliches Know-how",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Einbezug Dienstleister",
+          "description": "Diese Dimension beschreibt den Umfang der Beteiligung externer Partner wie Hardware-, Software- oder Beratungsdienstleister. Sie reflektiert Make-or-Buy-Entscheidungen und ermöglicht Rückschlüsse auf Abhängigkeiten, Implementierungsrisiken und Kooperationsmodelle.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Hardware",
+              "description": ""
+            },
+            {
+              "name": "Software",
+              "description": ""
+            },
+            {
+              "name": "Beratung",
+              "description": ""
+            },
+            {
+              "name": "Keine (Vollständige Eigenumsetzung)",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Gestaltung",
+      "description": "",
+      "dimensions": [
+        {
+          "name": "Nutzer-Schnittstelle",
+          "description": "Die Nutzer-Schnittstelle beschreibt die Art des Interfaces oder Endgeräts, über das der Smart Service bereitgestellt wird. Sie bestimmt den Zugang zu Informationen, die Usability sowie die Integration in operative Abläufe und ist damit entscheidend für Akzeptanz und Effizienz im Nutzungskontext.",
+          "selectionType": "N",
+          "characteristics": [
+            {
+              "name": "Lokale Anzeigegeräte (Feste Bildschirme, Signalleuchten)",
+              "description": ""
+            },
+            {
+              "name": "Mobile Displaygeräte (Handy, Tablet)",
+              "description": ""
+            },
+            {
+              "name": "Wearables (Bänder, Tracker, Audio)",
+              "description": ""
+            },
+            {
+              "name": "Erweiterte oder virtuelle Realität",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Interaktionsgrad",
+          "description": "Der Interaktionsgrad beschreibt die Intensität und Art der Mensch–Service-Interaktion, von rein passiver Informationsbereitstellung bis zu teil- oder vollautomatisierten Interaktionsformen. Diese Dimension definiert die Rolle des Menschen im soziotechnischen System und bestimmt die Bedienlogik.",
+          "selectionType": "E",
+          "characteristics": [
+            {
+              "name": "Passiv-Informativ",
+              "description": ""
+            },
+            {
+              "name": "Semi-Passiv",
+              "description": ""
+            },
+            {
+              "name": "Interaktiv",
+              "description": ""
+            },
+            {
+              "name": "Semi-Automatisch",
+              "description": ""
+            },
+            {
+              "name": "Voll-Automatisch",
+              "description": ""
+            }
+          ]
+        },
+
+        {
+          "name": "Individuallisierungsgrad",
+          "description": "Der Individualisierungsgrad beschreibt, in welchem Maße ein Smart Service standardisiert oder an spezifische betriebliche Anforderungen angepasst ist. Er ermöglicht Rückschlüsse auf Skalierbarkeit, Anpassungsaufwand und Flexibilität und unterstützt damit strategische Entscheidungen zur Einführung und Weiterentwicklung.",
+          "selectionType": "E",
+          "characteristics": [
+            {
+              "name": "Standardisiert",
+              "description": ""
+            },
+            {
+              "name": "Standardisiert in Varianten",
+              "description": ""
+            },
+            {
+              "name": "Maßgeschneidert",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
