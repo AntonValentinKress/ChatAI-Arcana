@@ -1,12 +1,22 @@
 {
         "title": "IPA - Smart Services",
         "subtitle": "Beispielhafter Subtitle",
-        "model-name": "Qwen 3 30B A3B Thinking 2507",
         "model": "qwen3-30b-a3b-thinking-2507",
+        "model-name": "Qwen 3 30B A3B Thinking 2507",
+        "enable_tools": true,
         "temperature": 0,
         "top_p": 0,
+        "arcana": {
+                "id": "AntonValentinKress/ChatAI-Arcana"
+        },
         "messages": [
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "info", "content": "Hallo :) Wie kann ich dir heute helfen?"}
+            {
+                    "role": "system", 
+                    "content": "You are a helpful assistant."
+            },
+            {
+                    "role": "info", 
+                    "content": "Hallo, :)\nIch bin ein Support-Bot der bei der Auswahl von Smart Services unterstützt.\nIch habe 3 Use-Cases:\n\n- Einordnen eines Smart Service in die Smart-Service Taxonomie.\n- Identifizieren von Smart Services.?"
+            }
         ]
     }
