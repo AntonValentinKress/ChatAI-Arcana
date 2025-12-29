@@ -5,7 +5,7 @@
         "model-name": "Qwen 3 30B A3B Thinking 2507",
         "enable_tools": true,
         "temperature": 0,
-        "top_p": 0,
+        "top_p": 0.05,
         "arcana": {
                 "id": "AntonValentinKress/ChatAI-Arcana"
         },
