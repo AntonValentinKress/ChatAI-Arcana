@@ -1,0 +1,12 @@
+{
+        "title": "IPA - Smart Services",
+        "subtitle": "Beispielhafter Subtitle",
+        "model-name": "Qwen 3 30B A3B Thinking 2507",
+        "model": "qwen3-30b-a3b-thinking-2507",
+        "temperature": 0,
+        "top_p": 0,
+        "messages": [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "info", "content": "Hallo :) Wie kann ich dir heute helfen?"}
+        ]
+    }
